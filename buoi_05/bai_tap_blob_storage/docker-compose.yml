@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    container_name: image-upload-azure
+    ports:
+      - "8088:8088"
